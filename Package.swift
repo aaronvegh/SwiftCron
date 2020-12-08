@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftCron",
+	dependencies:[],
 	products: [
 		// library that has the same name as the package itself:
         .library(
@@ -13,6 +14,5 @@ let package = Package(
 	],
     targets: [
 		.target(name: "SwiftCron")
-	],
-    dependencies:[]
+	]
 )
