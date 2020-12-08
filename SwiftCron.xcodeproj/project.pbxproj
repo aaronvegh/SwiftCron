@@ -109,7 +109,7 @@
 				959BFF6F1E739CFA00A788E2 /* YearField.swift */,
 			);
 			name = Sources;
-			path = ../../Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +338,7 @@
 		9577E9001E7396D4007854EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -359,6 +360,7 @@
 		9577E9011E7396D4007854EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
